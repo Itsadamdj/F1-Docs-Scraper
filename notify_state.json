@@ -1,0 +1,626 @@
+{
+  "/system/files/decision-document/2026_canadian_grand_prix_-_championship_points.pdf": {
+    "title": "Doc 111 - Championship Points",
+    "published": "25.05.26 03:16 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916013+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_final_race_classification.pdf": {
+    "title": "Doc 110 - Final Race Classification",
+    "published": "25.05.26 03:10 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916133+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_decision_-_race_reconnaissance_laps_sc2_-_sc1_.pdf": {
+    "title": "Doc 109 - Decision - Race reconnaissance laps SC2 - SC1",
+    "published": "25.05.26 02:46 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916157+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_race_deleted_lap_times.pdf": {
+    "title": "Doc 108 - Infringement - Race Deleted Lap Times",
+    "published": "25.05.26 02:32 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916175+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_6_-_failing_to_slow_for_yellow_flags.pdf": {
+    "title": "Doc 106 - Infringement - Car 6 - Failing to slow for yellow flags",
+    "published": "25.05.26 02:25 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916192+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_race_scrutineering.pdf": {
+    "title": "Doc 105 - Race Scrutineering",
+    "published": "25.05.26 02:24 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916211+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_63_-_unsafe_act.pdf": {
+    "title": "Doc 104 - Infringement - Car 63 - Unsafe act",
+    "published": "25.05.26 02:22 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916228+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_30_-_starting_procedure_infringement.pdf": {
+    "title": "Doc 103 - Infringement - Car 30 - Starting procedure infringement",
+    "published": "25.05.26 02:12 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916245+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_decision_-_car_11_-_ignoring_blue_flags.pdf": {
+    "title": "Doc 102 - Decision - Car 11 - Ignoring blue flags",
+    "published": "25.05.26 02:11 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916260+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_6_-_more_than_one_change_of_direction.pdf": {
+    "title": "Doc 101 - Infringement - Car 6 - More than one change of direction",
+    "published": "29.05.26 16:49 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916282+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_81_-_collision_with_car_23.pdf": {
+    "title": "Doc 100 - Infringement - Car 81 - Collision with Car 23",
+    "published": "25.05.26 02:09 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916297+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_27_-_starting_procedure_infringement.pdf": {
+    "title": "Doc 99 - Infringement - Car 27 - Starting procedure infringement",
+    "published": "25.05.26 02:08 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916314+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_5_-_driving_unnecessarily_slowly_during_vsc.pdf": {
+    "title": "Doc 98 - Infringement - Car 5 - Driving unnecessarily slowly during VSC.",
+    "published": "25.05.26 01:59 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916330+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_77_-_pit_lane_speeding.pdf": {
+    "title": "Doc 97 - Infringement - Car 77 - Pit Lane Speeding",
+    "published": "25.05.26 01:57 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916345+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_27_-_pit_lane_speeding.pdf": {
+    "title": "Doc 96 - Infringement - Car 27 - Pit Lane Speeding",
+    "published": "25.05.26 00:52 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916363+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_summons_-_car_30_-_starting_procedure_infringement.pdf": {
+    "title": "Doc 95 - Summons - Car 30 - Starting procedure infringement",
+    "published": "25.05.26 00:14 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916379+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_summons_-_car_27_-_starting_procedure_infringement.pdf": {
+    "title": "Doc 94 - Summons - Car 27 - Starting procedure infringement",
+    "published": "25.05.26 00:14 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916393+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_provisional_race_classification.pdf": {
+    "title": "Doc 93 - Provisional Race Classification",
+    "published": "25.05.26 00:13 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916410+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_summons_-_car_63_-_alleged_unsafe_act.pdf": {
+    "title": "Doc 92 - Summons - Car 63 - Alleged unsafe act",
+    "published": "25.05.26 00:13 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916427+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_final_starting_grid.pdf": {
+    "title": "Doc 91 - Final Starting Grid",
+    "published": "24.05.26 21:00 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916444+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_parts_and_parameters_been_replaced_and_or_changed_during_race_parc_ferme.pdf": {
+    "title": "Doc 90 - Parts and Parameters been replaced and or changed during Race Parc Ferm\u00e9",
+    "published": "24.05.26 20:52 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916465+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_18_-_pu_elements_changed_under_parc_ferme.pdf": {
+    "title": "Doc 89 - Infringement - Car 18 - PU Elements changed under Parc Ferme",
+    "published": "24.05.26 19:08 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916486+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_parc_ferme_issues_0.pdf": {
+    "title": "Doc 88 - Parc Ferm\u00e9 Issues",
+    "published": "24.05.26 17:46 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916505+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_post-race_procedure.pdf": {
+    "title": "Doc 87 - Post-Race Procedure",
+    "published": "24.05.26 15:52 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916523+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_pre-race_procedure.pdf": {
+    "title": "Doc 86 - Pre-Race Procedure",
+    "published": "24.05.26 15:50 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916540+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_provisional_starting_grid.pdf": {
+    "title": "Doc 85 - Provisional Starting Grid",
+    "published": "24.05.26 01:53 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916564+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_final_qualifying_classification.pdf": {
+    "title": "Doc 83 - Final Qualifying Classification",
+    "published": "24.05.26 01:38 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916583+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_decision_-_car_18_-_allegedly_impeded_car_27.pdf": {
+    "title": "Doc 82 - Decision - Car 18 - Allegedly impeded Car 27",
+    "published": "24.05.26 01:23 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916599+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_decision_-_car_44_-_alleged_impeding_of_car_10.pdf": {
+    "title": "Doc 81 - Decision - Car 44 - Alleged impeding of Car 10",
+    "published": "24.05.26 01:23 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916614+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_11_-_failing_to_follow_race_directors_event_notes.pdf": {
+    "title": "Doc 80 - Infringement - Car 11 - Failing to follow Race Directors Event Notes",
+    "published": "24.05.26 01:22 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916630+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_qualifying_sc2-sc1_times.pdf": {
+    "title": "Doc 79 - Qualifying SC2-SC1 Times",
+    "published": "24.05.26 01:20 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916647+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_qualifying_deleted_lap_times.pdf": {
+    "title": "Doc 78 - Qualifying Deleted Lap Times",
+    "published": "24.05.26 01:20 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916663+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_18_-_released_in_an_unsafe_condition.pdf": {
+    "title": "Doc 77 - Infringement - Car 18 - Released in an unsafe condition",
+    "published": "24.05.26 01:10 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916678+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_14_-_unsafe_release_from_garage.pdf": {
+    "title": "Doc 76 - Infringement - Car 14 - Unsafe release from garage",
+    "published": "24.05.26 01:05 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916694+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_qualifying_scrutineering.pdf": {
+    "title": "Doc 75 - Qualifying Scrutineering",
+    "published": "24.05.26 00:45 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916713+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_provisional_qualifying_classification.pdf": {
+    "title": "Doc 74 - Provisional Qualifying Classification",
+    "published": "23.05.26 23:17 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916731+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_summons_-_car_10_-_incident_with_car_44_.pdf": {
+    "title": "Doc 73 - Summons - Car 10 - Incident With Car 44",
+    "published": "23.05.26 23:21 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916749+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_summons_-_car_27_-_incident_with_car_18.pdf": {
+    "title": "Doc 72 - Summons - Car 27 - Incident with Car 18",
+    "published": "23.05.26 23:23 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916770+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_summons_-_car_18_-_alleged_impeding_of_car_27.pdf": {
+    "title": "Doc 71 - Summons - Car 18 - Alleged impeding of Car 27",
+    "published": "23.05.26 23:07 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916788+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_summons_-_car_44_-_alleged_impeding_of_car_10.pdf": {
+    "title": "Doc 69 - Summons - Car 44 - Alleged impeding of Car 10",
+    "published": "23.05.26 23:07 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916809+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_summons_-_car_11_-_alleged_incident_with_car_14.pdf": {
+    "title": "Doc 68 - Summons - Car 11 - Alleged incident with car 14",
+    "published": "23.05.26 23:04 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916833+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_summons_-_car_18_-_alleged_released_in_an_unsafe_condition.pdf": {
+    "title": "Doc 67 - Summons - Car 18 - Alleged released in an unsafe condition",
+    "published": "23.05.26 23:04 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916859+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_summons_-_car_14_-_alleged_unsafe_release.pdf": {
+    "title": "Doc 66 - Summons - Car 14 - Alleged unsafe release",
+    "published": "23.05.26 23:04 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916881+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_new_pu_elements_for_this_competition_1.pdf": {
+    "title": "Doc 65 - New PU Elements for this Competition",
+    "published": "23.05.26 22:33 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916905+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_decision_-_car_31_-_alleged_procedural_infringement.pdf": {
+    "title": "Doc 64 - Decision - Car 31 - Alleged Procedural Infringement",
+    "published": "23.05.26 21:53 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.916925+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_championship_points_after_sprint.pdf": {
+    "title": "Doc 63 - Championship Points after Sprint",
+    "published": "23.05.26 21:31 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916945+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_final_sprint_classification.pdf": {
+    "title": "Doc 62 - Final Sprint Classification",
+    "published": "23.05.26 21:21 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916964+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_sprint_scrutineering.pdf": {
+    "title": "Doc 61 - Sprint Scrutineering",
+    "published": "23.05.26 20:45 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.916985+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_tyre_pressure_check_on_grid_of_sprint_car_31.pdf": {
+    "title": "Doc 60 - Tyre Pressure Check on Grid of Sprint, Car 31",
+    "published": "23.05.26 20:41 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917005+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_summons_-_car_31_-_alleged_procedural_infringement.pdf": {
+    "title": "Doc 59 - Summons - Car 31 - Alleged Procedural infringement",
+    "published": "23.05.26 20:30 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917022+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_rain_hazard_declaration.pdf": {
+    "title": "Doc 58 - Rain Hazard Declaration",
+    "published": "23.05.26 19:53 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917520+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_decision_-_car_44_-_alleged_leaving_the_track_and_gaining_an_advantage.pdf": {
+    "title": "Doc 57 - Decision - Car 44 - Alleged leaving the track and gaining an advantage",
+    "published": "23.05.26 19:50 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917553+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_11_-_forcing_car_30_off_track.pdf": {
+    "title": "Doc 56 - Infringement - Car 11 - Forcing Car 30 off track",
+    "published": "23.05.26 19:50 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917575+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_27_-_leaving_the_track_and_gaining_an_advantage.pdf": {
+    "title": "Doc 55 - Infringement - Car 27 - Leaving the track and gaining an advantage",
+    "published": "23.05.26 19:49 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917593+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_18_-_starting_procedure_infringement.pdf": {
+    "title": "Doc 54 - Infringement - Car 18 - Starting procedure infringement",
+    "published": "23.05.26 19:49 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917612+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_sprint_deleted_lap_times.pdf": {
+    "title": "Doc 53 - Infringement - Sprint Deleted Lap Times",
+    "published": "23.05.26 19:22 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917628+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_provisional_sprint_classification.pdf": {
+    "title": "Doc 51 - Provisional Sprint Classification",
+    "published": "23.05.26 18:50 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917646+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_final_sprint_starting_grid.pdf": {
+    "title": "Doc 50 - Final Sprint Starting Grid",
+    "published": "23.05.26 17:26 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917668+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_23_-_parc_ferme.pdf": {
+    "title": "Doc 49 - Infringement - Car 23 - Parc Ferme",
+    "published": "23.05.26 17:18 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917682+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_10_-_parc_ferme.pdf": {
+    "title": "Doc 48 - Infringement - Car 10 - Parc Ferme",
+    "published": "23.05.26 17:17 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917696+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_87_-_parc_ferme.pdf": {
+    "title": "Doc 47 - Infringement - Car 87 - Parc Ferme",
+    "published": "23.05.26 17:14 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917711+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_77_-_parc_ferme.pdf": {
+    "title": "Doc 46 - Infringement - Car 77 - Parc Ferme",
+    "published": "23.05.26 17:14 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917735+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_parts_and_parameters_been_replaced_and_or_changed_during_parc_ferme.pdf": {
+    "title": "Doc 45 - Parts and parameters been replaced and or changed during Parc Ferm\u00e9",
+    "published": "23.05.26 17:07 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917760+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_parc_ferme_issues.pdf": {
+    "title": "Doc 44 - Parc Ferm\u00e9 Issues",
+    "published": "23.05.26 16:46 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917785+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_curfew.pdf": {
+    "title": "Doc 42 - Curfew",
+    "published": "23.05.26 16:15 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917797+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_post-qualifying_procedure.pdf": {
+    "title": "Doc 41 - Post-Qualifying Procedure",
+    "published": "23.05.26 15:54 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917808+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_post-sprint_procedure.pdf": {
+    "title": "Doc 40 - Post-Sprint Procedure",
+    "published": "23.05.26 15:53 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917818+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_12_-_failure_to_follow_race_directors_instructions_sc2-sc1_time.pdf": {
+    "title": "Doc 38 - Infringement - Car 12 - Failure to follow Race Director's instructions (SC2-SC1 Time)",
+    "published": "23.05.26 15:09 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917827+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_failure_to_follow_race_directors_instructions_sc2-sc1_time.pdf": {
+    "title": "Doc 37 - Infringement - Failure to follow Race Director's instructions (SC2-SC1 Time)",
+    "published": "23.05.26 03:03 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917836+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_provisional_sprint_starting_grid.pdf": {
+    "title": "Doc 36 - Provisional Sprint Starting Grid",
+    "published": "23.05.26 02:04 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917846+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_final_sprint_qualifying_classification.pdf": {
+    "title": "Doc 35 - Final Sprint Qualifying Classification",
+    "published": "23.05.26 02:01 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917855+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_p1_and_sprint_qualifying_scrutineering.pdf": {
+    "title": "Doc 34 - P1 and Sprint Qualifying Scrutineering",
+    "published": "23.05.26 01:40 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917865+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_decision_-_sprint_qualifying_sc2-sc1_times.pdf": {
+    "title": "Doc 33 - Decision - Sprint Qualifying SC2-SC1 Times",
+    "published": "23.05.26 01:10 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917873+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_sprint_qualifying_deleted_lap_times_-_double_yellow.pdf": {
+    "title": "Doc 32 - Infringement - Sprint Qualifying Deleted Lap Times - Double Yellow",
+    "published": "23.05.26 01:10 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917882+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_sprint_qualifying_deleted_lap_times.pdf": {
+    "title": "Doc 31 - Infringement - Sprint Qualifying Deleted Lap Times",
+    "published": "23.05.26 01:09 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917895+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_decision_-_car_23_-_failing_to_set_a_lap_time_within_107.pdf": {
+    "title": "Doc 30 - Decision - Car 23 - Failing to set a lap time within 107%",
+    "published": "23.05.26 00:47 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917905+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_new_pu_elements_for_this_competition_0.pdf": {
+    "title": "Doc 29 - New PU Elements for this Competition",
+    "published": "23.05.26 00:37 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917916+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_provisional_sprint_qualifying_classification.pdf": {
+    "title": "Doc 28 - Provisional Sprint Qualifying Classification",
+    "published": "22.05.26 23:51 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917928+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_decision_-_car_30_-_failing_to_set_a_lap_time_within_107.pdf": {
+    "title": "Doc 27 - Decision - Car 30 - Failing to set a lap time within 107%",
+    "published": "22.05.26 23:50 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917937+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_30_-_breach_of_article_c9.3.pdf": {
+    "title": "Doc 26 - Infringement - Car 30 - Breach of Article C9.3",
+    "published": "22.05.26 23:24 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917948+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_free_practice_1_deleted_lap_times_-_double_yellow_flags.pdf": {
+    "title": "Doc 24 - Infringement - Free Practice 1 Deleted Lap Times - Double Yellow Flags",
+    "published": "22.05.26 22:18 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917957+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_free_practice_1_deleted_lap_times.pdf": {
+    "title": "Doc 23 - Infringement - Free Practice 1 Deleted Lap Times",
+    "published": "22.05.26 22:18 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917966+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_31_-_leaving_the_pitlane_after_the_end_of_the_session.pdf": {
+    "title": "Doc 22 - Infringement - Car 31 - Leaving the pitlane after the end of the session",
+    "published": "22.05.26 20:31 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.917975+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_free_practice_1_classification.pdf": {
+    "title": "Doc 21 - Free Practice 1 Classification",
+    "published": "22.05.26 20:15 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917984+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_race_director_notes_-_sc2_-_sc1_times.pdf": {
+    "title": "Doc 20 - Race Director Notes - SC2 - SC1 Times",
+    "published": "22.05.26 20:12 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.917994+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_summons_-_car_30_-_alleged_breach_of_article_c9.3.pdf": {
+    "title": "Doc 19 - Summons - Car 30 - Alleged breach of Article C9.3",
+    "published": "22.05.26 19:56 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.918003+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_infringement_-_car_16_-_pit_lane_speeding.pdf": {
+    "title": "Doc 18 - Infringement - Car 16 - Pit Lane Speeding",
+    "published": "22.05.26 19:34 CET",
+    "important": true,
+    "seen_at": "2026-05-31T15:22:27.918012+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_car_30_cds_not_functioning_when_car_stopped_on_the_track.pdf": {
+    "title": "Doc 17 - Car 30; CDS not functioning when car stopped on the track",
+    "published": "22.05.26 19:28 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918023+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_new_pu_elements_for_this_competition.pdf": {
+    "title": "Doc 16 - New PU Elements for this Competition",
+    "published": "22.05.26 18:52 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918066+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_post-sprint_qualifying_procedure_v2.pdf": {
+    "title": "Doc 15 - Post-Sprint Qualifying Procedure v2",
+    "published": "22.05.26 18:29 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918095+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_entry_list.pdf": {
+    "title": "Doc 14 - Entry List",
+    "published": "22.05.26 16:23 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918121+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_self_scrutineering.pdf": {
+    "title": "Doc 13 - Self Scrutineering",
+    "published": "22.05.26 16:18 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918142+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_pu_elements_used_per_driver_up_to_now.pdf": {
+    "title": "Doc 12 - PU elements used per driver up to now",
+    "published": "22.05.26 16:18 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918160+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_car_presentation_submissions.pdf": {
+    "title": "Doc 11 - Car Presentation Submissions",
+    "published": "22.05.26 16:00 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918177+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_post-sprint_qualifying_procedure.pdf": {
+    "title": "Doc 10 - Post-Sprint Qualifying Procedure",
+    "published": "22.05.26 15:14 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918194+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_competition_notes_-_circuit_map_v2.pdf": {
+    "title": "Doc 9 - Competition Notes - Circuit Map V2",
+    "published": "22.05.26 15:04 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918210+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_competition_notes_-_circuit_map_pit_lane_drawing_and_emergency_exits_map.pdf": {
+    "title": "Doc 8 - Competition Notes - Circuit Map, Pit Lane Drawing and Emergency Exits Map",
+    "published": "22.05.26 00:12 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918226+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_car_display_procedure.pdf": {
+    "title": "Doc 7 - Car Display Procedure",
+    "published": "21.05.26 23:55 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918242+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_race_directors_competition_notes_.pdf": {
+    "title": "Doc 6 - Race Director's Competition Notes",
+    "published": "21.05.26 23:31 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918259+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_power_unit_information.pdf": {
+    "title": "Doc 5 - Power Unit Information",
+    "published": "21.05.26 16:10 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918275+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_timetable_v3.pdf": {
+    "title": "Doc 4 - Timetable V3",
+    "published": "21.05.26 14:56 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918290+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_competition_notes_-_pirelli_preview.pdf": {
+    "title": "Doc 3 - Competition Notes - Pirelli Preview",
+    "published": "20.05.26 21:31 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918306+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_post-race_checks_on_car_55_2026_miami_gp.pdf": {
+    "title": "Doc 2 - Post-Race Checks on Car 55, 2026 Miami GP",
+    "published": "20.05.26 20:48 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918322+00:00"
+  },
+  "/system/files/decision-document/2026_canadian_grand_prix_-_competition_visa.pdf": {
+    "title": "Doc 1 - Competition Visa",
+    "published": "20.05.26 20:38 CET",
+    "important": false,
+    "seen_at": "2026-05-31T15:22:27.918337+00:00"
+  }
+}
