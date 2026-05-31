@@ -401,6 +401,34 @@ def check_once(notify_only: bool = False) -> None:
         )
 
 
+def send_demo() -> None:
+    """Send notifications formatted exactly like real penalty alerts.
+
+    Reproduces the two McLaren disqualifications from the 2025 Las Vegas Grand
+    Prix (both cars excluded for the rear skid block / plank being below the
+    minimum permitted thickness). Useful for seeing what genuine alerts look
+    like on your phone.
+    """
+    global NOTIFY_ENABLED
+    NOTIFY_ENABLED = True  # force send even if F1_NOTIFY=0 in the environment
+    event = "2025 Las Vegas Grand Prix"
+    stamp = "23.11.25 04:18 CET"
+    alerts = [
+        ("F1 — Doc 58 - Decision - Car 04",
+         "Lando Norris (Car 4) disqualified from the race results — the "
+         "rearmost skid block was found below the minimum permitted thickness, "
+         "in breach of Technical Regulations Art. 3.5.9 e)."),
+        ("F1 — Doc 59 - Decision - Car 81",
+         "Oscar Piastri (Car 81) disqualified from the race results — excessive "
+         "skid block wear below the 9 mm minimum, in breach of Technical "
+         "Regulations Art. 3.5.9 e)."),
+    ]
+    for title, summary in alerts:
+        send_push(title=title, message=f"{summary}\n{event} · {stamp}",
+                  click_url=FIA_URL)
+        time.sleep(2)
+
+
 def watch(interval: int) -> None:
     log(f"Watching FIA F1 documents every {interval}s. Ctrl-C to stop.")
     while True:
@@ -416,6 +444,9 @@ def main() -> None:
     if args and args[0] == "--test-notify":
         send_push("F1 docs scraper test", "If you see this, push works ✅",
                   click_url=FIA_URL)
+        return
+    if args and args[0] == "--demo":
+        send_demo()
         return
     if args and args[0] == "--notify-only":
         check_once(notify_only=True)
