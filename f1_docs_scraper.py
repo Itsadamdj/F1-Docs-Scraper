@@ -357,7 +357,8 @@ def check_once(notify_only: bool = False) -> None:
                                                        doc["title"])
                 if g_important is not None:        # None == fall back to keywords
                     important, summary = g_important, g_summary
-                time.sleep(1)                      # gentle on free-tier limits
+                time.sleep(10)                     # spread bursts well under
+                                                   # free-tier per-minute limits
             except Exception as e:
                 log(f"Gemini assess failed for {doc['filename']}: {e}")
 
