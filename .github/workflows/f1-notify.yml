@@ -32,10 +32,14 @@ jobs:
 
       - name: Check FIA documents and notify
         env:
-          # Falls back to the topic hardcoded in the script if the secret is unset.
           F1_NTFY_TOPIC: ${{ secrets.F1_NTFY_TOPIC }}
           F1_STATE_FILE: notify_state.json
           F1_NOTIFY: "1"
+          # Optional: enables AI classification + summaries. Without it the
+          # notifier falls back to keyword matching. Get a free key at
+          # https://aistudio.google.com/apikey
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: python3 f1_docs_scraper.py --notify-only
 
       - name: Commit updated state

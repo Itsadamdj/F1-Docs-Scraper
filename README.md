@@ -34,9 +34,28 @@ The two keep separate state files so they don't interfere
 
 ## What counts as "important"
 
-Title/filename contains any of: decision, penalty, infringement, offence,
-summons, reprimand, disqualif, protest, right of review, stewards. Edit
-`IMPORTANT_KEYWORDS` in the script to tune.
+**Without Gemini (default):** title/filename contains any of: decision, penalty,
+infringement, offence, summons, reprimand, disqualif, protest, right of review,
+stewards. Edit `IMPORTANT_KEYWORDS` in the script to tune.
+
+**With Gemini (optional, free):** the cloud notifier reads each new PDF with the
+Gemini API and decides whether it's a penalty/steward decision — catching docs
+the keyword list misses — and writes a one-line summary used as the push body
+(e.g. *"5s time penalty for Car 4 (Norris) — track limits, Turn 4"*). If the key
+is missing or the API errors/rate-limits, it automatically falls back to
+keyword matching, so notifications never break.
+
+### Enabling Gemini
+
+1. Get a free API key at <https://aistudio.google.com/apikey>.
+2. Add it as a repo secret: `gh secret set GEMINI_API_KEY` (paste the key), or via
+   GitHub → Settings → Secrets and variables → Actions.
+3. (Optional) If the default model is ever unavailable, set a repo *variable*
+   `GEMINI_MODEL` to a valid model name. The script otherwise tries
+   `gemini-2.5-flash` → `gemini-2.0-flash` → `gemini-flash-latest`.
+
+Volume is a few dozen PDFs per race weekend — comfortably within the free tier.
+Only the cloud notifier uses Gemini; the laptop agent stays keyword-only.
 
 ## Running manually
 

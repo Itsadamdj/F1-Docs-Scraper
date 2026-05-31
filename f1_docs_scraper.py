@@ -22,6 +22,7 @@ import re
 import sys
 import time
 import html
+import base64
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
@@ -79,6 +80,20 @@ IMPORTANT_KEYWORDS = [
     "right of review",
     "stewards",
 ]
+
+# --- Gemini (optional) ------------------------------------------------------
+# If GEMINI_API_KEY is set (free tier from https://aistudio.google.com/apikey),
+# the notifier reads each new PDF with Gemini to (a) judge whether it's a
+# penalty/steward decision — catching things the keyword list misses — and
+# (b) write a one-line summary for the push. If the key is absent or the API
+# errors/rate-limits, it silently falls back to keyword matching.
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+# Override with GEMINI_MODEL; otherwise these are tried in order until one works.
+GEMINI_MODEL_CANDIDATES = (
+    [os.environ["GEMINI_MODEL"]] if os.environ.get("GEMINI_MODEL") else
+    ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-flash-latest"]
+)
+_gemini_model_ok = None  # cached working model name for this process
 
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -153,6 +168,74 @@ def event_folder_for(filename: str) -> str:
 def is_important(doc: dict) -> bool:
     haystack = f"{doc['title']} {doc['filename']}".lower()
     return any(kw in haystack for kw in IMPORTANT_KEYWORDS)
+
+
+GEMINI_PROMPT = (
+    "You are monitoring official FIA Formula 1 documents. Decide whether THIS "
+    "document is a PENALTY or a STEWARDS' DECISION affecting a driver or car — "
+    "e.g. a time penalty, grid-place drop, fine, reprimand, disqualification, "
+    "or a stewards' ruling on an on-track incident or protest. Routine documents "
+    "(timetables, entry lists, classifications, scrutineering, event/competition "
+    "notes, championship points, car presentations) are NOT important.\n\n"
+    "Reply with EXACTLY ONE line and nothing else:\n"
+    "  SKIP\n"
+    "    -- if it is not a penalty or stewards' decision; or\n"
+    "  ALERT: <one concise sentence — driver/car, the offence, and the outcome>\n"
+    "    -- if it is.\n"
+)
+
+
+def gemini_assess(pdf_bytes: bytes, title: str):
+    """Use Gemini to classify + summarize a PDF.
+
+    Returns (important: bool, summary: str), or (None, "") if Gemini is
+    unavailable or errored — signalling the caller to fall back to keywords.
+    """
+    global _gemini_model_ok
+    if not GEMINI_API_KEY:
+        return None, ""
+    body = json.dumps({
+        "contents": [{"parts": [
+            {"inline_data": {
+                "mime_type": "application/pdf",
+                "data": base64.b64encode(pdf_bytes).decode(),
+            }},
+            {"text": GEMINI_PROMPT + f"\nDocument title: {title}"},
+        ]}],
+        "generationConfig": {"temperature": 0, "maxOutputTokens": 200},
+    }).encode()
+
+    # Prefer a model already known to work this run; else probe candidates.
+    models = [_gemini_model_ok] if _gemini_model_ok else GEMINI_MODEL_CANDIDATES
+    for model in models:
+        url = (f"https://generativelanguage.googleapis.com/v1beta/models/"
+               f"{model}:generateContent?key={GEMINI_API_KEY}")
+        req = urllib.request.Request(
+            url, data=body, headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                payload = json.loads(resp.read())
+            text = (payload["candidates"][0]["content"]["parts"][0]["text"]
+                    or "").strip()
+            _gemini_model_ok = model
+            if text.upper().startswith("ALERT"):
+                summary = text.split(":", 1)[1].strip() if ":" in text else text
+                return True, summary
+            return False, ""
+        except urllib.error.HTTPError as e:
+            if e.code in (400, 403, 404):       # bad/unknown model -> try next
+                log(f"Gemini model '{model}' unavailable (HTTP {e.code}); trying next.")
+                continue
+            log(f"Gemini error (HTTP {e.code}); falling back to keywords.")
+            return None, ""
+        except Exception as e:
+            log(f"Gemini call failed ({e}); falling back to keywords.")
+            return None, ""
+    log("No working Gemini model found; falling back to keywords. "
+        "Set GEMINI_MODEL to a valid model name.")
+    return None, ""
 
 
 def load_state() -> dict:
@@ -260,15 +343,30 @@ def check_once(notify_only: bool = False) -> None:
     new_docs = [d for d in docs if d["href"] not in state]
     log(f"{len(docs)} docs on page, {len(new_docs)} new. (notify_only={notify_only})")
 
-    important_new = []
+    important_new = []  # list of (doc, summary)
+    # Only the cloud notifier uses Gemini, and not while seeding (first run).
+    use_gemini = notify_only and not first_run and bool(GEMINI_API_KEY)
     for doc in new_docs:
         important = is_important(doc)
+        summary = ""
+        if use_gemini:
+            try:
+                g_important, g_summary = gemini_assess(http_get(doc["url"]),
+                                                       doc["title"])
+                if g_important is not None:        # None == fall back to keywords
+                    important, summary = g_important, g_summary
+                time.sleep(1)                      # gentle on free-tier limits
+            except Exception as e:
+                log(f"Gemini assess failed for {doc['filename']}: {e}")
+
         entry = {
             "title": doc["title"],
             "published": doc["published"],
             "important": important,
             "seen_at": datetime.now(timezone.utc).isoformat(),
         }
+        if summary:
+            entry["summary"] = summary
         if not notify_only:
             try:
                 entry["saved_to"] = str(download_pdf(doc))
@@ -277,9 +375,9 @@ def check_once(notify_only: bool = False) -> None:
                 continue
         state[doc["href"]] = entry
         tag = "IMPORTANT" if important else "ok"
-        log(f"  [{tag}] {doc['title']}")
+        log(f"  [{tag}] {doc['title']}" + (f" — {summary}" if summary else ""))
         if important:
-            important_new.append(doc)
+            important_new.append((doc, summary))
 
     save_state(state)
     if not notify_only:
@@ -289,11 +387,13 @@ def check_once(notify_only: bool = False) -> None:
         log(f"First run: seeded {len(new_docs)} existing docs (no push sent).")
         return
 
-    for doc in important_new:
+    for doc, summary in important_new:
         event = event_folder_for(doc["filename"])
+        stamp = f"{event} · {doc['published']}".strip(" ·")
+        message = f"{summary}\n{stamp}".strip() if summary else stamp
         send_push(
             title=f"F1 — {doc['title']}",
-            message=f"{event}\n{doc['published']}".strip(),
+            message=message,
             click_url=doc["url"],
         )
 
