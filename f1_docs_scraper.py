@@ -202,7 +202,9 @@ def gemini_assess(pdf_bytes: bytes, title: str):
             }},
             {"text": GEMINI_PROMPT + f"\nDocument title: {title}"},
         ]}],
-        "generationConfig": {"temperature": 0, "maxOutputTokens": 200},
+        # 2.5-flash spends "thinking" tokens from this budget before answering,
+        # so keep it generous or the one-line answer gets truncated.
+        "generationConfig": {"temperature": 0, "maxOutputTokens": 1024},
     }).encode()
 
     # Prefer a model already known to work this run; else probe candidates.
