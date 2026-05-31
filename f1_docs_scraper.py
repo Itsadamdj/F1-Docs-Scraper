@@ -45,11 +45,12 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 STATE_FILE = Path(os.environ.get("F1_STATE_FILE") or (SCRIPT_DIR / "state.json"))
 
 # --- ntfy push configuration ----------------------------------------------
-# ntfy.sh is a free, no-account push service. Pick a hard-to-guess topic name
-# below, then install the "ntfy" app on your phone and subscribe to that exact
-# topic. Anyone who knows the topic can read/send, so keep it private.
-# Env overrides (used by the GitHub Action): F1_NTFY_TOPIC, F1_NTFY_SERVER.
-NTFY_TOPIC = os.environ.get("F1_NTFY_TOPIC") or "f1-docs-adamj-9f3kx2"
+# ntfy.sh is a free, no-account push service. The topic is intentionally NOT
+# stored in this (public) repo — it comes from the F1_NTFY_TOPIC env var:
+#   * GitHub Action: from the F1_NTFY_TOPIC repository secret.
+#   * Laptop agent:  from EnvironmentVariables in the launchd plist (local).
+# If unset, NTFY_TOPIC stays "CHANGE_ME" and send_push() does nothing.
+NTFY_TOPIC = os.environ.get("F1_NTFY_TOPIC") or "CHANGE_ME"
 NTFY_SERVER = os.environ.get("F1_NTFY_SERVER") or "https://ntfy.sh"
 
 # Set F1_NOTIFY=0 to download silently (the laptop agent uses this so that the

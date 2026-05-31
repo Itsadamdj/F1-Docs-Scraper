@@ -21,16 +21,16 @@ The two keep separate state files so they don't interfere
 ## Phone notifications (one-time setup)
 
 1. Install the **ntfy** app: [iOS](https://apps.apple.com/app/ntfy/id1625396347) / [Android](https://play.google.com/store/apps/details?id=io.heckel.ntfy).
-2. In the app, **Subscribe to topic** and enter exactly:
+2. In the app, **Subscribe to topic** and enter your private topic name.
 
-   ```
-   f1-docs-adamj-9f3kx2
-   ```
+   The topic is **not** stored in this repo (the repo is public). It lives in:
+   - the `F1_NTFY_TOPIC` **GitHub Actions secret** (used by the cloud notifier), and
+   - the `F1_NTFY_TOPIC` env var in the launchd plist (used by the laptop for
+     `--test-notify`).
 
-   (This is the `NTFY_TOPIC` value in `f1_docs_scraper.py` — change both places
-   if you want a different/private topic. Anyone who knows the topic can read it,
-   so keep it secret.)
-3. Test it: `python3 f1_docs_scraper.py --test-notify` — a push should arrive.
+   Both must be set to the same value. Anyone who knows the topic can read/send
+   to it, so keep it out of any committed file.
+3. Test it: `F1_NTFY_TOPIC=your-topic python3 f1_docs_scraper.py --test-notify`.
 
 ## What counts as "important"
 
