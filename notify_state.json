@@ -635,5 +635,17 @@
     "published": "03.06.26 11:07 CET",
     "important": false,
     "seen_at": "2026-06-03T12:05:03.769171+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_power_unit_information.pdf": {
+    "title": "Doc 4 - Power Unit Information",
+    "published": "03.06.26 15:04 CET",
+    "important": false,
+    "seen_at": "2026-06-03T17:11:47.712856+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_competition_notes_-_pirelli_preview.pdf": {
+    "title": "Doc 3 - Competition Notes - Pirelli Preview",
+    "published": "03.06.26 15:00 CET",
+    "important": false,
+    "seen_at": "2026-06-03T17:12:01.614021+00:00"
   }
 }
