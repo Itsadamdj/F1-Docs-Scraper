@@ -623,5 +623,17 @@
     "important": true,
     "seen_at": "2026-05-31T15:39:53.180518+00:00",
     "summary": "Sergio Perez (Car 11) was investigated for an alleged breach of blue flag rules, with no further action taken."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_curfew_period_tyre_preparation.pdf": {
+    "title": "Doc 2 - Curfew Period (Tyre Preparation)",
+    "published": "03.06.26 11:10 CET",
+    "important": false,
+    "seen_at": "2026-06-03T12:04:47.365478+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_competition_visa.pdf": {
+    "title": "Doc 1 - Competition Visa",
+    "published": "03.06.26 11:07 CET",
+    "important": false,
+    "seen_at": "2026-06-03T12:05:03.769171+00:00"
   }
 }
