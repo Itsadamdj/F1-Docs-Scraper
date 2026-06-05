@@ -727,5 +727,55 @@
     "published": "05.06.26 11:00 CET",
     "important": false,
     "seen_at": "2026-06-05T11:49:33.113141+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_free_practice_1_deleted_lap_times.pdf": {
+    "title": "Doc 28 - Infringement - Free Practice 1 Deleted Lap Times",
+    "published": "05.06.26 15:56 CET",
+    "important": true,
+    "seen_at": "2026-06-05T14:12:51.791242+00:00",
+    "summary": "Multiple drivers had specific lap times deleted in Free Practice 1 for not using the track at turns 1, 5, 10, 11, and 16."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_63_-_pit_lane_speeding.pdf": {
+    "title": "Doc 27 - Infringement - Car 63 - Pit Lane Speeding",
+    "published": "05.06.26 15:12 CET",
+    "important": true,
+    "seen_at": "2026-06-05T14:13:06.444819+00:00",
+    "summary": "Car 63 (George Russell) of Mercedes-AMG PETRONAS F1 Team was fined \u20ac100 for pit lane speeding (60.3 km/h in a 60 km/h zone)."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_summons_-_car_16_-_alleged_incident_with_car_30.pdf": {
+    "title": "Doc 26 - Summons - Car 16 - Alleged incident with car 30",
+    "published": "05.06.26 15:05 CET",
+    "important": false,
+    "seen_at": "2026-06-05T14:13:23.690918+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_summons_-_car_30_-_alleged_incident_with_car_16.pdf": {
+    "title": "Doc 25 - Summons - Car 30 - Alleged incident with car 16",
+    "published": "05.06.26 15:04 CET",
+    "important": false,
+    "seen_at": "2026-06-05T14:13:38.220413+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_free_practice_1_classification.pdf": {
+    "title": "Doc 24 - Free Practice 1 Classification",
+    "published": "05.06.26 14:57 CET",
+    "important": false,
+    "seen_at": "2026-06-05T14:13:51.460174+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_summons_-_car_81_-_alleged_incident_with_car_41.pdf": {
+    "title": "Doc 23 - Summons - Car 81 - Alleged incident with car 41",
+    "published": "05.06.26 14:56 CET",
+    "important": false,
+    "seen_at": "2026-06-05T14:14:05.837957+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_summons_-_car_41_-_alleged_incident_with_car_81.pdf": {
+    "title": "Doc 22 - Summons - Car 41 - Alleged incident with car 81",
+    "published": "05.06.26 14:56 CET",
+    "important": true,
+    "seen_at": "2026-06-05T14:14:31.173162+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_new_pu_elements_for_this_competition.pdf": {
+    "title": "Doc 19 - New PU elements for this Competition",
+    "published": "05.06.26 13:48 CET",
+    "important": false,
+    "seen_at": "2026-06-05T14:14:46.176887+00:00"
   }
 }
