@@ -777,5 +777,98 @@
     "published": "05.06.26 13:48 CET",
     "important": false,
     "seen_at": "2026-06-05T14:14:46.176887+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_p1_and_p2_scrutineering.pdf": {
+    "title": "Doc 43 - P1 and P2 scrutineering",
+    "published": "05.06.26 20:28 CET",
+    "important": false,
+    "seen_at": "2026-06-05T18:30:08.513708+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_1_-_technical_non-conformity_cds.pdf": {
+    "title": "Doc 42 - Infringement - Car 1 - Technical non-conformity (CDS)",
+    "published": "05.06.26 20:17 CET",
+    "important": true,
+    "seen_at": "2026-06-05T18:30:22.818348+00:00",
+    "summary": "McLaren Mastercard F1 Team was fined \u20ac30,000 (\u20ac10,000 suspended) for Lando Norris's car having its CDS (Car Safety System) activation button covered by tape, preventing its function."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_car_01_cds_not_functioning_when_car_stopped_on_the_track.pdf": {
+    "title": "Doc 41 - Car 01; CDS not functioning when car stopped on the track",
+    "published": "05.06.26 18:51 CET",
+    "important": false,
+    "seen_at": "2026-06-05T18:30:36.185798+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_summons_-_car_4_-_alleged_technical_infringement.pdf": {
+    "title": "Doc 40 - Summons - Car 4 - Alleged Technical infringement",
+    "published": "05.06.26 18:48 CET",
+    "important": false,
+    "seen_at": "2026-06-05T18:30:49.816008+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_race_director_notes_-_sc2_-_sc1_times.pdf": {
+    "title": "Doc 39 - Race Director Notes - SC2 - SC1 Times",
+    "published": "05.06.26 18:40 CET",
+    "important": false,
+    "seen_at": "2026-06-05T18:31:03.324818+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_free_practice_2_deleted_lap_times_-_double_yellow_flags.pdf": {
+    "title": "Doc 38 - Infringement - Free Practice 2 Deleted Lap Times - Double Yellow Flags",
+    "published": "05.06.26 18:33 CET",
+    "important": true,
+    "seen_at": "2026-06-05T18:31:20.218212+00:00",
+    "summary": "Lando Norris (Car 1) and Sergio Perez (Car 11) had their lap times deleted for passing through a double waved yellow flag marshalling sector during Free Practice 2."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_free_practice_2_deleted_lap_times.pdf": {
+    "title": "Doc 37 - Infringement - Free Practice 2 Deleted Lap Times",
+    "published": "05.06.26 18:25 CET",
+    "important": true,
+    "seen_at": "2026-06-05T18:31:34.757164+00:00",
+    "summary": "Multiple drivers had their Free Practice 2 lap times deleted for not using the track at turns 1, 10, and 16."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_12_-_pit_lane_speeding.pdf": {
+    "title": "Doc 36 - Infringement - Car 12 - Pit Lane Speeding",
+    "published": "05.06.26 18:25 CET",
+    "important": true,
+    "seen_at": "2026-06-05T18:31:45.596191+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_free_practice_2_classification.pdf": {
+    "title": "Doc 35 - Free Practice 2 Classification",
+    "published": "05.06.26 18:15 CET",
+    "important": false,
+    "seen_at": "2026-06-05T18:31:58.498673+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_14_-_pit_lane_speeding.pdf": {
+    "title": "Doc 34 - Infringement - Car 14 - Pit Lane Speeding",
+    "published": "05.06.26 18:25 CET",
+    "important": true,
+    "seen_at": "2026-06-05T18:32:09.353336+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_new_pu_elements_for_this_competition_0.pdf": {
+    "title": "Doc 33 - New PU elements for this Competition",
+    "published": "05.06.26 17:07 CET",
+    "important": false,
+    "seen_at": "2026-06-05T18:32:20.417489+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_decision_-_car_30_-_alleged_leaving_the_pitlane_after_the_end_of_the_session.pdf": {
+    "title": "Doc 32 - Decision - Car 30 - Alleged leaving the pitlane after the end of the session",
+    "published": "05.06.26 16:42 CET",
+    "important": true,
+    "seen_at": "2026-06-05T18:32:31.283803+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_free_practice_1_deleted_lap_times_-_double_yellows.pdf": {
+    "title": "Doc 31 - Infringement - Free Practice 1 Deleted Lap Times - Double Yellows",
+    "published": "05.06.26 16:41 CET",
+    "important": true,
+    "seen_at": "2026-06-05T18:32:41.502050+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_41_-_impeding_of_car_81.pdf": {
+    "title": "Doc 30 - Infringement - Car 41 - Impeding of Car 81",
+    "published": "05.06.26 16:35 CET",
+    "important": true,
+    "seen_at": "2026-06-05T18:32:52.470025+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_16_-_impeding_of_car_30.pdf": {
+    "title": "Doc 29 - Infringement - Car 16 - Impeding of Car 30",
+    "published": "05.06.26 16:19 CET",
+    "important": true,
+    "seen_at": "2026-06-05T18:33:03.398780+00:00"
   }
 }
