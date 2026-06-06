@@ -928,5 +928,62 @@
     "published": "06.06.26 14:02 CET",
     "important": false,
     "seen_at": "2026-06-06T12:59:41.859649+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_27_-_failure_to_follow_race_directors_instructions_-_tunnel.pdf": {
+    "title": "Doc 61 - Infringement - Car 27 - Failure to follow Race Director's Instructions - Tunnel",
+    "published": "06.06.26 19:17 CET",
+    "important": true,
+    "seen_at": "2026-06-06T17:21:31.022799+00:00",
+    "summary": "Car 27 (Nico Hulkenberg) and the Audi Revolut F1 Team received a warning for travelling slowly ahead of Car 16 in the tunnel due to incorrect team information."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_23_-_pit_lane_incident_with_car_41.pdf": {
+    "title": "Doc 60 - Infringement - Car 23 - Pit Lane incident with Car 41",
+    "published": "06.06.26 18:58 CET",
+    "important": true,
+    "seen_at": "2026-06-06T17:21:46.054084+00:00",
+    "summary": "Atlassian Williams F1 Team (Car 23, Alexander Albon) received a formal warning and a \u20ac5,000 fine for delaying Car 41 in the pit lane and creating a safety issue."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_covers-on_time.pdf": {
+    "title": "Doc 59 - Covers-on time",
+    "published": "06.06.26 18:23 CET",
+    "important": false,
+    "seen_at": "2026-06-06T17:21:59.380735+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_qualifying_deleted_lap_times.pdf": {
+    "title": "Doc 58 - Infringement - Qualifying Deleted Lap Times",
+    "published": "06.06.26 17:45 CET",
+    "important": true,
+    "seen_at": "2026-06-06T17:22:13.920947+00:00",
+    "summary": "Multiple drivers had their qualifying lap times deleted for not using the track at turns 1, 10, and 16."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_summons_-_car_41_-_alleged_pit_lane_incident_with_car_23.pdf": {
+    "title": "Doc 57 - Summons - Car 41 - Alleged pit lane incident with Car 23",
+    "published": "06.06.26 17:41 CET",
+    "important": true,
+    "seen_at": "2026-06-06T17:22:28.307366+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_summons_-_car_23_-_alleged_pit_lane_incident_with_car_41.pdf": {
+    "title": "Doc 56 - Summons - Car 23 - Alleged pit lane incident with Car 41",
+    "published": "06.06.26 17:38 CET",
+    "important": false,
+    "seen_at": "2026-06-06T17:22:42.967632+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_provisional_qualifying_classification.pdf": {
+    "title": "Doc 55 - Provisional Qualifying Classification",
+    "published": "06.06.26 17:21 CET",
+    "important": false,
+    "seen_at": "2026-06-06T17:22:56.392689+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_summons_-_car_16_-_alleged_incident_with_car_27_at_turn_9.pdf": {
+    "title": "Doc 54 - Summons - Car 16 - Alleged incident with Car 27 at turn 9",
+    "published": "06.06.26 17:38 CET",
+    "important": false,
+    "seen_at": "2026-06-06T17:23:10.008855+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_summons_-_car_27_-_alleged_incident_with_car_16_at_turn_9.pdf": {
+    "title": "Doc 53 - Summons - Car 27 - Alleged incident with Car 16 at turn 9",
+    "published": "06.06.26 17:38 CET",
+    "important": true,
+    "seen_at": "2026-06-06T17:23:23.740624+00:00"
   }
 }
