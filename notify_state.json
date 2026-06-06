@@ -985,5 +985,23 @@
     "published": "06.06.26 17:38 CET",
     "important": true,
     "seen_at": "2026-06-06T17:23:23.740624+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_provisional_starting_grid.pdf": {
+    "title": "Doc 64 - Provisional Starting Grid",
+    "published": "06.06.26 19:39 CET",
+    "important": false,
+    "seen_at": "2026-06-06T18:44:40.324131+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_final_qualifying_classification.pdf": {
+    "title": "Doc 63 - Final Qualifying Classification",
+    "published": "06.06.26 19:35 CET",
+    "important": false,
+    "seen_at": "2026-06-06T18:44:52.863702+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_p3_and_q_scrutineering.pdf": {
+    "title": "Doc 62 - P3 and Q scrutineering",
+    "published": "06.06.26 19:33 CET",
+    "important": false,
+    "seen_at": "2026-06-06T18:45:06.597855+00:00"
   }
 }
