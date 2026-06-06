@@ -894,5 +894,39 @@
     "published": "06.06.26 12:52 CET",
     "important": false,
     "seen_at": "2026-06-06T11:49:52.668526+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_free_practice_3_deleted_lap_times_-_yellow_flags.pdf": {
+    "title": "Doc 52 - Infringement - Free Practice 3 Deleted Lap Times - Yellow Flags",
+    "published": "06.06.26 14:17 CET",
+    "important": true,
+    "seen_at": "2026-06-06T12:58:46.638877+00:00",
+    "summary": "Multiple drivers had their Free Practice 3 lap times deleted for passing through a double waved yellow flag marshalling sector."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_free_practice_3_deleted_lap_times.pdf": {
+    "title": "Doc 51 - Infringement - Free Practice 3 Deleted Lap Times",
+    "published": "06.06.26 14:17 CET",
+    "important": true,
+    "seen_at": "2026-06-06T12:59:00.859770+00:00",
+    "summary": "Multiple F1 drivers had their Free Practice 3 lap times deleted for not using the track at turns 1, 10, and 16."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_23_-_pit_lane_speeding.pdf": {
+    "title": "Doc 50 - Infringement - Car 23 - Pit Lane Speeding",
+    "published": "06.06.26 14:16 CET",
+    "important": true,
+    "seen_at": "2026-06-06T12:59:14.697523+00:00",
+    "summary": "Alexander Albon (Car 23) was fined \u20ac100 for pit lane speeding during Free Practice 3."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_43_-_pit_lane_speeding.pdf": {
+    "title": "Doc 49 - Infringement - Car 43 - Pit Lane Speeding",
+    "published": "06.06.26 14:13 CET",
+    "important": true,
+    "seen_at": "2026-06-06T12:59:28.344271+00:00",
+    "summary": "Car 43 (Franco Colapinto) was fined \u20ac900 for pit lane speeding during Free Practice 3."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_race_directors_competition_notes_v3.pdf": {
+    "title": "Doc 48 - Race Director's Competition Notes V3",
+    "published": "06.06.26 14:02 CET",
+    "important": false,
+    "seen_at": "2026-06-06T12:59:41.859649+00:00"
   }
 }
