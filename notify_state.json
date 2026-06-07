@@ -1125,5 +1125,63 @@
     "important": true,
     "seen_at": "2026-06-07T17:43:46.746212+00:00",
     "summary": "George Russell (Car 63) received a 5-second time penalty for pit lane speeding."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_championship_points.pdf": {
+    "title": "Doc 92 - Championship Points",
+    "published": "07.06.26 20:55 CET",
+    "important": false,
+    "seen_at": "2026-06-07T18:57:40.815133+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_final_race_classification.pdf": {
+    "title": "Doc 91 - Final Race Classification",
+    "published": "07.06.26 20:50 CET",
+    "important": true,
+    "seen_at": "2026-06-07T18:57:55.348632+00:00",
+    "summary": "Several drivers received time penalties for various offences including speeding in the pit lane, track limits, causing a collision, and a false start."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_decision_-_car_43_-_allegedly_causing_a_collision_with_car_55.pdf": {
+    "title": "Doc 90 - Decision - Car 43 - Allegedly causing a collision with Car 55",
+    "published": "07.06.26 20:28 CET",
+    "important": true,
+    "seen_at": "2026-06-07T18:58:08.819752+00:00",
+    "summary": "Car 43 (Franco Colapinto) was investigated for allegedly causing a collision with Car 55, with the stewards deciding no further action."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_27_-_causing_a_collision_with_car_55.pdf": {
+    "title": "Doc 89 - Infringement - Car 27 - Causing a collision with Car 55",
+    "published": "07.06.26 20:28 CET",
+    "important": true,
+    "seen_at": "2026-06-07T18:58:21.233153+00:00",
+    "summary": "Nico Hulkenberg (Car 27) received a 10-second time penalty after the race for causing a collision with Car 55 in Turn 8."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_race_scrutineering.pdf": {
+    "title": "Doc 88 - Race scrutineering",
+    "published": "07.06.26 20:20 CET",
+    "important": false,
+    "seen_at": "2026-06-07T18:58:32.178801+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_race_deleted_lap_times.pdf": {
+    "title": "Doc 87 - Infringement - Race Deleted Lap Times",
+    "published": "07.06.26 19:56 CET",
+    "important": true,
+    "seen_at": "2026-06-07T18:58:46.301424+00:00",
+    "summary": "Multiple drivers had their lap times deleted for not using the track at turns 1, 10, and 16."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_11_-_failing_to_follow_race_directors_event_notes_-_practice_starts.pdf": {
+    "title": "Doc 86 - Infringement - Car 11 - Failing to follow Race Directors Event Notes - Practice starts",
+    "published": "07.06.26 19:42 CET",
+    "important": true,
+    "seen_at": "2026-06-07T18:58:57.138990+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_decision_-_car_44_-_alleged_safety_car_infringement.pdf": {
+    "title": "Doc 85 - Decision - Car 44 - Alleged Safety Car infringement",
+    "published": "07.06.26 19:42 CET",
+    "important": true,
+    "seen_at": "2026-06-07T18:59:08.137733+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_decision_-_car_6_-_alleged_safety_car_infringement.pdf": {
+    "title": "Doc 84 - Decision - Car 6 - Alleged Safety Car infringement",
+    "published": "07.06.26 19:42 CET",
+    "important": true,
+    "seen_at": "2026-06-07T18:59:19.092066+00:00"
   }
 }
