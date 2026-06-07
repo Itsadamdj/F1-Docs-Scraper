@@ -1045,5 +1045,85 @@
     "published": "07.06.26 15:31 CET",
     "important": true,
     "seen_at": "2026-06-07T16:12:01.033219+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_decision_-_alleged_red_flag_infringement.pdf": {
+    "title": "Doc 83 - Decision - Alleged Red Flag Infringement",
+    "published": "07.06.26 19:35 CET",
+    "important": true,
+    "seen_at": "2026-06-07T17:41:16.105337+00:00",
+    "summary": "Isack Hadjar (car #6) / Oracle Red Bull Racing for working on the car during a race suspension, resulting in no further action."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_11_-_false_start_-_out_of_position_at_restart.pdf": {
+    "title": "Doc 82 - Infringement - Car 11 - False start - Out of position at restart",
+    "published": "07.06.26 19:35 CET",
+    "important": true,
+    "seen_at": "2026-06-07T17:41:29.994979+00:00",
+    "summary": "Sergio Perez (Car 11) received a 10-second time penalty for being out of position at the restart after a red flag."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_car_6_-_alleged_race_suspension_infringement.pdf": {
+    "title": "Doc 81 - Car 6 - Alleged Race suspension infringement",
+    "published": "07.06.26 18:15 CET",
+    "important": true,
+    "seen_at": "2026-06-07T17:41:43.094433+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_summons_-_car_11_-_alleged_starting_procedure.pdf": {
+    "title": "Doc 79 - Summons - Car 11 - Alleged starting procedure",
+    "published": "07.06.26 18:29 CET",
+    "important": false,
+    "seen_at": "2026-06-07T17:41:57.168823+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_summons_-_car_6_-_alleged_red_flag_infringement.pdf": {
+    "title": "Doc 78 - Summons - Car 6 - Alleged red flag infringement",
+    "published": "07.06.26 18:28 CET",
+    "important": false,
+    "seen_at": "2026-06-07T17:42:10.686416+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_18_-_exceeded_track_limits.pdf": {
+    "title": "Doc 77 - Infringement - Car 18 - Exceeded track limits",
+    "published": "07.06.26 18:28 CET",
+    "important": true,
+    "seen_at": "2026-06-07T17:42:24.406541+00:00",
+    "summary": "Lance Stroll (Car 18) of Aston Martin Aramco F1 Team received a 5-second time penalty for exceeding track limits multiple times during the race."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_summons_-_car_11_-_practice_start_infringement.pdf": {
+    "title": "Doc 76 - Summons - Car 11 - Practice start infringement",
+    "published": "07.06.26 18:28 CET",
+    "important": false,
+    "seen_at": "2026-06-07T17:42:37.508114+00:00"
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_10_-_pit_lane_speeding_0.pdf": {
+    "title": "Doc 75 - Infringement - Car 10 - Pit lane speeding",
+    "published": "07.06.26 18:27 CET",
+    "important": true,
+    "seen_at": "2026-06-07T17:42:51.724507+00:00",
+    "summary": "Pierre Gasly (Car 10) received a 5-second time penalty for pit lane speeding."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_81_-_pit_lane_speeding.pdf": {
+    "title": "Doc 74 - Infringement - Car 81 - Pit lane speeding",
+    "published": "07.06.26 18:27 CET",
+    "important": true,
+    "seen_at": "2026-06-07T17:43:05.854608+00:00",
+    "summary": "Oscar Piastri (Car 81) received a 5-second time penalty for pit lane speeding (60.1 km/h in a 60 km/h zone)."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_10_-_pit_lane_speeding.pdf": {
+    "title": "Doc 73 - Infringement - Car 10 - Pit lane speeding",
+    "published": "07.06.26 18:26 CET",
+    "important": true,
+    "seen_at": "2026-06-07T17:43:19.774650+00:00",
+    "summary": "Pierre Gasly (Car 10) received a 5-second time penalty for pit lane speeding (60.1 km/h in a 60 km/h zone)."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_43_-_pit_lane_speeding_0.pdf": {
+    "title": "Doc 72 - Infringement - Car 43 - Pit lane speeding",
+    "published": "07.06.26 18:26 CET",
+    "important": true,
+    "seen_at": "2026-06-07T17:43:33.304622+00:00",
+    "summary": "Car 43 (Franco Colapinto) received a 5-second time penalty for pit lane speeding (60.1 km/h in a 60 km/h zone)."
+  },
+  "/system/files/decision-document/2026_monaco_grand_prix_-_infringement_-_car_63_-_pit_lane_speeding_0.pdf": {
+    "title": "Doc 71 - Infringement - Car 63 - Pit lane speeding",
+    "published": "07.06.26 18:26 CET",
+    "important": true,
+    "seen_at": "2026-06-07T17:43:46.746212+00:00",
+    "summary": "George Russell (Car 63) received a 5-second time penalty for pit lane speeding."
   }
 }
