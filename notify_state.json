@@ -1279,5 +1279,58 @@
     "published": "12.06.26 14:21 CET",
     "important": false,
     "seen_at": "2026-06-12T13:53:23.867775+00:00"
+  },
+  "/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_race_director_notes_-_sc2_-_sc1_times.pdf": {
+    "title": "Doc 24 - Race Director Notes - SC2 - SC1 Times",
+    "published": "12.06.26 18:28 CET",
+    "important": false,
+    "seen_at": "2026-06-12T16:38:48.256769+00:00"
+  },
+  "/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_infringement_-_free_practice_2_deleted_lap_times.pdf": {
+    "title": "Doc 23 - Infringement - Free Practice 2 Deleted Lap Times",
+    "published": "12.06.26 18:23 CET",
+    "important": true,
+    "seen_at": "2026-06-12T16:39:03.055532+00:00",
+    "summary": "Multiple drivers had their lap times deleted in Free Practice 2 for not using the track at specific turns."
+  },
+  "/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_free_practice_2_classification.pdf": {
+    "title": "Doc 22 - Free Practice 2 Classification",
+    "published": "12.06.26 18:20 CET",
+    "important": false,
+    "seen_at": "2026-06-12T16:39:17.268581+00:00"
+  },
+  "/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_infringement_-_car_11_-_pit_lane_speeding.pdf": {
+    "title": "Doc 21 - Infringement - Car 11 - Pit Lane Speeding",
+    "published": "12.06.26 18:26 CET",
+    "important": true,
+    "seen_at": "2026-06-12T16:39:31.061208+00:00",
+    "summary": "Sergio Perez (Car 11) of Cadillac Formula 1 Team was fined \u20ac500 for pit lane speeding during Free Practice 2."
+  },
+  "/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_infringement_-_car_77_-_pit_lane_speeding.pdf": {
+    "title": "Doc 20 - Infringement - Car 77 - Pit Lane Speeding",
+    "published": "12.06.26 18:11 CET",
+    "important": true,
+    "seen_at": "2026-06-12T16:39:45.614759+00:00",
+    "summary": "Valtteri Bottas (Car 77) of Cadillac Formula 1 Team was fined \u20ac100 for pit lane speeding during Free Practice 2."
+  },
+  "/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_infringement_-_car_14_-_pit_exit_incident.pdf": {
+    "title": "Doc 19 - Infringement - Car 14 - Pit exit incident",
+    "published": "12.06.26 18:02 CET",
+    "important": true,
+    "seen_at": "2026-06-12T16:39:59.269834+00:00",
+    "summary": "Fernando Alonso (Car 14) received a warning for crossing the white line at the pit exit during Free Practice 2."
+  },
+  "/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_new_pu_elements_for_this_competition_0.pdf": {
+    "title": "Doc 18 - New PU Elements for this Competition",
+    "published": "12.06.26 17:02 CET",
+    "important": false,
+    "seen_at": "2026-06-12T16:40:13.438578+00:00"
+  },
+  "/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_infringement_-_free_practice_1_deleted_lap_times.pdf": {
+    "title": "Doc 17 - Infringement - Free Practice 1 Deleted Lap Times",
+    "published": "12.06.26 15:53 CET",
+    "important": true,
+    "seen_at": "2026-06-12T16:40:28.209553+00:00",
+    "summary": "Frederik Vesti (Car 72), Valtteri Bottas (Car 77), and Gabriel Bortoleto (Car 5) had specific lap times from Free Practice 1 deleted for not using the track at turns 1, 2, 8 and 9."
   }
 }
