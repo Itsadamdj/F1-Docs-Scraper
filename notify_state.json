@@ -1387,5 +1387,50 @@
     "published": "13.06.26 12:50 CET",
     "important": false,
     "seen_at": "2026-06-13T11:44:23.138477+00:00"
+  },
+  "/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_infringement_-_car_16_-_impeding_of_car_27.pdf": {
+    "title": "Doc 40 - Infringement - Car 16 - Impeding of Car 27",
+    "published": "13.06.26 15:38 CET",
+    "important": true,
+    "seen_at": "2026-06-13T15:12:26.867418+00:00",
+    "summary": "Charles Leclerc (Car 16) and Scuderia Ferrari HP received a warning for impeding Car 27 in Turn 5 during Free Practice 3."
+  },
+  "/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_infringement_-_car_12_-_driving_erratically.pdf": {
+    "title": "Doc 39 - Infringement - Car 12 - Driving erratically",
+    "published": "13.06.26 14:36 CET",
+    "important": true,
+    "seen_at": "2026-06-13T15:12:40.329050+00:00",
+    "summary": "Kimi Antonelli (Car 12) received a reprimand for driving erratically in turn 2 during Free Practice 3."
+  },
+  "/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_infringement_-_free_practice_3_deleted_lap_times.pdf": {
+    "title": "Doc 38 - Infringement - Free Practice 3 Deleted Lap Times",
+    "published": "13.06.26 14:18 CET",
+    "important": true,
+    "seen_at": "2026-06-13T15:12:54.654094+00:00",
+    "summary": "Multiple drivers had their Free Practice 3 lap times deleted for not using the track at turns 2, 9, 10, and 13."
+  },
+  "/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_free_practice_3_classification.pdf": {
+    "title": "Doc 37 - Free Practice 3 Classification",
+    "published": "13.06.26 13:55 CET",
+    "important": false,
+    "seen_at": "2026-06-13T15:13:08.117429+00:00"
+  },
+  "/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_summons_-_car_16_-_alleged_incident_with_car_27_at_turn_5.pdf": {
+    "title": "Doc 36 - Summons - Car 16 - Alleged incident with Car 27 at turn 5",
+    "published": "13.06.26 13:52 CET",
+    "important": false,
+    "seen_at": "2026-06-13T15:13:21.397821+00:00"
+  },
+  "/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_summons_-_car_18_-_incident_with_car_12_in_turn_2.pdf": {
+    "title": "Doc 35 - Summons - Car 18 - Incident with Car 12 in Turn 2",
+    "published": "13.06.26 13:51 CET",
+    "important": false,
+    "seen_at": "2026-06-13T15:13:34.553223+00:00"
+  },
+  "/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_summons_-_car_12_-_alleged_driving_erratically.pdf": {
+    "title": "Doc 34 - Summons - Car 12 - Alleged driving erratically",
+    "published": "13.06.26 13:51 CET",
+    "important": false,
+    "seen_at": "2026-06-13T15:13:47.476291+00:00"
   }
 }
